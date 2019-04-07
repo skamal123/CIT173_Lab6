@@ -1,0 +1,97 @@
+    1  mkdir CIT173_Lab4
+    2  ls /dev
+    3  ls /dev > ~/CIT173_Lab4/my-dev-nodes.txt
+    4  cat ~/CIT173_Lab4/my-dev-nodes.txt 
+    5  head /dev/random > ~/CIT173_Lab4//my-random-data.txt
+    6  lsmod
+    7  lsmod > ~/CIT173_Lab4/my-modules-1.txt
+    8  modinfo
+    9  modinfo nfs 
+   10  modinfo nfs > ~/CIT173_Lab4/my-nfs-info.txt
+   11  sudo modprobe nfs 
+   12  lsmod > ~/CIT173_Lab4/my-modules-2.txt
+   13  man unload
+   14  rmmod nfs
+   15  sudo rmmod nfs
+   16  rmmod nfs
+   17  rmod nfs
+   18  rm mod nfs
+   19  lsmod
+   20  lsmod nfs
+   21  rmmod nfs
+   22  lsmod | grep nfs
+   23  cat ~/CIT173_Lab4/my-modules-2.txt 
+   24  cat ~/CIT173_Lab4/my-modules-2.txt  | grep "nfs"
+   25  lsmod > ~/CIT173_Lab4/my-modules-3.txt
+   26  ls
+   27  ls -a
+   28  runlevel
+   29  exit
+   30  sudo passwd cfisher
+   31  sudo passwd cfisher
+   32  sudo passwd mhamill 
+   33  sudo passwd hford
+   34  sudo passwd glucas
+   35  sudo passwd gkurtz
+   36  sudo usermod -c "Mark Hamill" mhamill
+   37  sudo usermod -c "Harrison Ford" hford
+   38  sudo usermod -c "Carrie Fisher" cfisher
+   39  sudo usermod -c "George Lucas" glucas
+   40  sudo usermod -c "Gary Kurtz" gkurtz
+   41  cp /etc/passwd ~/CIT173_Lab6
+   42  cp /etc/groups ~/CIT173_Lab6
+   43  cp /etc/group ~/CIT173_Lab6
+   44  ls
+   45  history > ~CIT173_Lab6/ex1-command-history.txt
+   46  history > ~/CIT173_Lab6/ex1-command-history.txt
+   47  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+   48  sudo wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+   49  sudo tar -xvzf master.tar.gz
+   50  cd /var
+   51  ls
+   52  mkdir StarWars
+   53  mkdir "StarWars"
+   54  mkdir starwars
+   55  sudo mkdir StarWars
+   56  ls
+   57  sudo chmod 777 StarWars
+   58  ls -all
+   59  cd StarWars
+   60  ls
+   61  mkdir finance
+   62  mkdir directing
+   63  mkdir creative
+   64  cd CIT173_Lab6_Files-master
+   65  cd 
+   66  ls
+   67  cd CIT173_Lab6
+   68  ls
+   69  cd CIT173_Lab6_Files-master
+   70  ls
+   71  ls --/
+   72  ls ../
+   73  find ~/ | grep master
+   74  sudo find / | grep master
+   75  cd /home
+   76  ls
+   77  ls -al
+   78  sudo chmod 777 master.tar.gz
+   79  cd CIT173_Lab6_Files-master
+   80  ls
+   81  mv star-wars-budget.txt /var/StarWars/finance
+   82  sudo mv star-wars-budget.txt /var/StarWars/finance
+   83  sudo mv star-wars-journal.txt /var/StarWars/directing
+   84  sudo mv star-wars-script.txt /var/StarWars/creative
+   85  sudo chown gkurtz:producers finance 
+   86  cd  /var/StarWars
+   87  sudo chown gkurtz:producers finance 
+   88  ls -all
+   89  sudo chown glucas:directors directing 
+   90  sudo chown glucas:actors creative 
+   91  sudo chmod 750 finance/
+   92* 
+   93  sudo chmod 775 directing
+   94  sudo chmod 750 creative
+   95  ls -all
+   96  history > ~CIT 173_Lab6/ex2-command-history.txt
+   97  history > ~/CIT173_Lab6/ex2-command-history.txt

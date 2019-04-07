@@ -1,0 +1,46 @@
+    1  mkdir CIT173_Lab4
+    2  ls /dev
+    3  ls /dev > ~/CIT173_Lab4/my-dev-nodes.txt
+    4  cat ~/CIT173_Lab4/my-dev-nodes.txt 
+    5  head /dev/random > ~/CIT173_Lab4//my-random-data.txt
+    6  lsmod
+    7  lsmod > ~/CIT173_Lab4/my-modules-1.txt
+    8  modinfo
+    9  modinfo nfs 
+   10  modinfo nfs > ~/CIT173_Lab4/my-nfs-info.txt
+   11  sudo modprobe nfs 
+   12  lsmod > ~/CIT173_Lab4/my-modules-2.txt
+   13  man unload
+   14  rmmod nfs
+   15  sudo rmmod nfs
+   16  rmmod nfs
+   17  rmod nfs
+   18  rm mod nfs
+   19  lsmod
+   20  lsmod nfs
+   21  rmmod nfs
+   22  lsmod | grep nfs
+   23  cat ~/CIT173_Lab4/my-modules-2.txt 
+   24  cat ~/CIT173_Lab4/my-modules-2.txt  | grep "nfs"
+   25  lsmod > ~/CIT173_Lab4/my-modules-3.txt
+   26  ls
+   27  ls -a
+   28  runlevel
+   29  exit
+   30  sudo passwd cfisher
+   31  sudo passwd cfisher
+   32  sudo passwd mhamill 
+   33  sudo passwd hford
+   34  sudo passwd glucas
+   35  sudo passwd gkurtz
+   36  sudo usermod -c "Mark Hamill" mhamill
+   37  sudo usermod -c "Harrison Ford" hford
+   38  sudo usermod -c "Carrie Fisher" cfisher
+   39  sudo usermod -c "George Lucas" glucas
+   40  sudo usermod -c "Gary Kurtz" gkurtz
+   41  cp /etc/passwd ~/CIT173_Lab6
+   42  cp /etc/groups ~/CIT173_Lab6
+   43  cp /etc/group ~/CIT173_Lab6
+   44  ls
+   45  history > ~CIT173_Lab6/ex1-command-history.txt
+   46  history > ~/CIT173_Lab6/ex1-command-history.txt
